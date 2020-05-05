@@ -23,7 +23,7 @@ namespace Exam_Revision
                 if (number1 == number2)
                 {
                     Console.WriteLine("The following is a true statement");
-                    Console.WriteLine(number1 == number2);
+                    Console.WriteLine(number1 + " = " + number2);
                     Console.ReadLine();
                 }
                 else
@@ -32,13 +32,13 @@ namespace Exam_Revision
                     if (number1 < number2)
                     {
                         Console.WriteLine("the following statement is true");
-                        Console.WriteLine(number1 < number2);
+                        Console.WriteLine(number1 + " < " + number2);
                         Console.ReadLine();
                     }
                     else
                     {
                         Console.WriteLine("the following statement is true");
-                        Console.WriteLine(number1 > number2);
+                        Console.WriteLine(number1 + " > " + number2);
                         Console.ReadLine();
                     }
                 }
@@ -53,7 +53,7 @@ namespace Exam_Revision
                     total = total + 1;
                 }
 
-            } while ((again != 'N') || (again != 'n'));
+            } while (again != 'N');
 
             Console.WriteLine("The total amount of times you played this games is: " + total);
         }
